@@ -26,7 +26,7 @@ jobs:
 
       - name: Generar mensaje con Cowsay
         run: |
-          cowsay "Hola Mundo desde GitHub Actions!" > cowsay.txt
+          cowsay "Hola Mundo desde GitHub Actions! atte: MN" > cowsay.txt
           cat cowsay.txt
 
       - name: Enviar Cowsay a ntfy
